@@ -65,7 +65,7 @@ def login(nazwa_uzytkownika):
 
 
 
-genai.configure(api_key="AIzaSyBxgtw4AMKHevWMv5B0P0A44h4VGJk6DY8")
+genai.configure(api_key="")
 genai.generation_config = {
     "temperature": 0.4, 
     "top_p": 0.7,
